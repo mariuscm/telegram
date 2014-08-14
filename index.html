@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Telegram</title>
+		<link rel="stylesheet" type="text/css" href="assets\stylesheets\main.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="left">
+				<div class="logo">
+					<img src="assets\telegram-logo.png">
+				</div>	
+			</div>
+			<div class="right">
+				<img id="postmark" src="assets\postmark.png"><br>
+				<p>Get going ...</p>
+				<input type="text" id="username" value="Enter your username ..." 
+					onfocus="if (this.value=='Enter your username ...') {this.value='';}"
+					onblur="if(this.value == ''){this.value='Enter your username ...';}"><br>
+				<input type="password" id="password" value=""
+					onblur="if(this.value == ''){this.value='Enter your password ...';}"><br>
+				<input type="submit" class="button" value="Log in">
+				
+				<div id="forgot">
+					<a href="index.html">Recover password </a>or
+					<a href="index.html">Sign up</a>
+				</div>
+			</div>
+
+			
+		</div>
+		
+	</body>
+</html>
